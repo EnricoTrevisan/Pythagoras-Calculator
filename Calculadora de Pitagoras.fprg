@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Calculadora de Pitagoras"/>
+        <attribute name="authors" value="T1DEV-T2"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-02-20 10:49:08 "/>
+        <attribute name="created" value="VDFERVYtVDI7REVTS1RPUC0zQk5WSTM0OzIwMjUtMDItMjA7IjEwOjMzOjM1ICI7Mjc1OA=="/>
+        <attribute name="edited" value="VDFERVYtVDI7REVTS1RPUC0zQk5WSTM0OzIwMjUtMDItMjA7IjEwOjQ5OjA4ICI7MTsyODcz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="catetoA" type="Real" array="False" size=""/>
+            <declare name="catetoB" type="Real" array="False" size=""/>
+            <declare name="hipotenusa" type="Real" array="False" size=""/>
+            <output expression="&quot;Ol&#225;, bem-vindo a calculadora de hipotenusa S.E.I.X.O.N.&quot;" newline="True"/>
+            <output expression="&quot;Coloque aqui os n&#250;meros que precisa para resolver sua hipotenusa. Digite o primeiro cateto:&quot;" newline="True"/>
+            <input variable="catetoA"/>
+            <output expression="&quot;Agora, coloque o digite o segundo cateto:&quot;" newline="True"/>
+            <input variable="catetoB"/>
+            <assign variable="hipotenusa" expression="(catetoA*catetoA) + (catetoB+catetoB)"/>
+            <output expression="&quot;Sua hipotenusa &#233; &quot; &amp;hipotenusa&amp; &quot;!&quot;" newline="True"/>
+            <output expression="&quot;Obrigado por usar a calculadora de hipotenusa S.E.I.X.O.N.&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
